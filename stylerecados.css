@@ -1,0 +1,231 @@
+* { padding:0px;}
+
+#all{ position:absolute; left:50%; top:50%; margin-left:-400px; margin-top:-310px; width:800px; background-color:#FFFFFF;}
+
+#headrecados {
+	width:810px;
+	height:120px;
+	font-family:verdana;
+	font-size:20pt;
+	background-color:#B5DCE8;;
+}
+
+#menu{ width:810px;}
+
+#conteudo{
+	width:800px;
+	background-color:#E8F5FD;
+	padding-bottom:10px;
+	padding-top:8px;
+	padding-right:10px;
+	}
+	
+#rodape {
+	width:810px;
+	height:48px;
+	background-color:#E8F5FD;
+	padding:0px;
+	position:absolute;
+	color:#003366;
+}
+
+#textorecados{
+    padding:1px 10px 10px 10px;
+	width:220px;
+	background-color:#0099CC;
+	margin-left:10px;
+	height:428px;
+}
+
+#formrecados{width:200px; background-color:#FFFFFF; padding:10px 10px 10px 10px;}
+
+#recados {color:#ffffff; padding:10px; overflow:scroll; height:400px; margin-top:10px;}
+
+#boxrecado{width:760px; background-color:#ffffff; color:#000000; padding:0px;}
+
+#ultimorecado{font-family:Geneva, Arial, Helvetica, sans-serif; color:#FFFFFF; width:455px; background-color:#ffffff; color:#000000; padding:10px 0px 0px 0px;}
+
+#recadoshoje{position:absolute; top:40px; left:200px;}
+
+#totalrecados{position:absolute; top:40px; left:20px;}
+
+#espaco{height:5px;}
+
+#alert
+{
+width:100%;
+background-color:#A5B0B7;
+font-family:verdana;
+font-size:10pt;
+border-collapse:collapse;
+} 
+
+#ultimos{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:10px;
+	float:right;
+	margin-left:280px;
+	position:absolute;
+	left:0px;
+	top:180px;
+	width:498px;
+	background-color:#0099CC;
+	height:300px;
+	overflow:auto;
+	overflow-x:hidden;
+	border:groove;
+}
+
+#quantidade{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	position:absolute;
+	left:280px;
+	top:510px;
+	width:519px;
+	background-color:#0099CC;
+	height:110px;
+}
+
+blockquote{margin-left:10px;}
+
+.data{
+	width:100px;
+	background-color:#33CCFF;
+}
+
+.desc{width:200px; background-color:#00CC33;}
+
+.situacao{width:100px;}
+
+input{
+width: 180px;
+margin-bottom: 5px;
+}
+
+textarea{
+width: 180px;
+height: 100px;
+}
+
+.boxes{
+width: 1em;
+}
+
+#submitbuttonrecado{
+margin-left: 60px;
+margin-top: 5px;
+width: 90px;
+height:25px;
+}
+
+label{
+float:left;
+width: 150px;
+font-weight: bold;
+font-family:verdana;
+font-size:9pt;
+}
+
+h4 { font-family:verdana; color:#FFFFFF;} 
+
+p{ font-family:verdana; color:#FFFFFF; font-size:10pt;}
+
+p.headtext { padding:35px 20px; font-family:Verdana; font-size:18pt; color:#006699;}
+
+p.footertext{ text-align:center; padding:10px; font-family:Verdana; font-size:8pt; color:#003366; height:38px;}
+ 
+ ul.menu {
+ 	width:810px;
+	margin-top:0px;
+	margin-bottom:0px;
+	list-style-type:none;
+	margin-right:0px;
+	overflow:hidden;
+	background-color:#0099CC;
+}
+
+li.menu{ float:left; padding:2px 2px; }
+	a.menu:link,a.menu:visited {
+	display:block;
+	width:100px;
+	font-weight:bold;
+	font-size:10pt;
+	font-family:verdana;
+	color:#003366;
+	background-color:#C7E2FE;
+	text-align:center;
+	padding:2px;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin-left:0px;
+}
+
+ul.recado {
+padding:0px 0px 0px 0px;
+	width:760px;
+	heigh:10px;
+	list-style-type:none;
+	margin-right:10px;
+	overflow:hidden;
+	background-color:#CCCCCC;
+	}
+
+li.recado{ float:right;}
+
+a.recado:link{
+	display:inline;
+	width:150px;
+	font-size:10pt;
+	background-color:#999999;
+	font-family:verdana;
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+	}
+	
+a.recado:visited{
+	display:inline;
+	width:150px;
+	font-size:10pt;
+	background-color:#333333;
+	font-family:verdana;
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+}
+
+ul.ultimosrecados {
+	padding:0px 0px 0px 0px;
+	width:455px;
+	heigh:10px;
+	list-style-type:none;
+	margin-right:10px;
+	overflow:hidden;
+	background-color:#CCCCCC;
+		}
+
+li.ultimosrecados{ float:right;}
+
+a.ultimosrecados:link{
+	display:inline;
+	width:150px;
+	font-size:10pt;
+	background-color:#999999;
+	font-family:verdana;
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+	}
+	
+a.ultimosrecados:visited{
+	display:inline;
+	width:150px;
+	font-size:10pt;
+	background-color:#333333;
+	font-family:verdana;
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+}

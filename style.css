@@ -1,0 +1,201 @@
+
+/* Na div "ALL" estão contidas todas as divs da página */
+#all{ position:absolute; left:50%; top:50%; margin-left:-400px; margin-top:-350px; background-color:#FFFFFF;}
+
+/* Na div "HEAD" está o cabeçalho do site */
+#head {
+	width:810px;
+	height:100px;
+	font-family:verdana;
+	font-size:35pt;
+	background-color:#B5DCE8;
+	position:relative;
+}
+
+/* Na div "MENU" está o menu do site  */
+#menu{ width:100px; float:left;}
+
+
+/* Na div "CONTEUDO" está o conteúdo do site */
+#conteudo{
+	width:618px;
+	height:530px;
+	background-color:#E8F5FD;
+	float:right;
+	}
+	
+/* Na div "RODAPE" está o rodapé do site */
+#rodape {
+	width:810px;
+	height:48px;
+	background-color:#000000;
+	padding:0px;
+	position:absolute;
+	color:#003366;
+	margin-top:530px;
+}
+
+/* A div "TEXTOHOME" é utilizada na página principal.php, nela ficam os textos desta página */
+#textohome{
+	margin-top:30px;
+	padding:1px 10px 10px 10px;
+	width:500px;
+	height:350px;
+	margin-left:40px;
+	background-color: #A3C9F8;
+}
+
+/* Formatação da tag H4 */
+h4 { font-family:verdana; color:#FFFFFF;} 
+
+/* Formatação da tag P */
+p{ font-family:verdana; color:#FFFFFF; font-size:10pt;}
+
+/* Classe para a tag P utilizada na página index.php */
+p.textoindex{font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#000000;
+font-size:14px;
+text-align:justify;
+width:420px;
+margin-left:30px;
+}
+
+/* Classe para a tag P utilizada nos textos de cabeçalho */
+p.headtext { padding:35px 20px; font-family:Verdana; font-size:18pt; color:#006699;}
+
+/* Classe paga a tag P utilizada nos textos de rodapé */
+p.footertext{ text-align:center; padding:10px; font-family:Verdana; font-size:8pt; color:#FFFFFF; height:38px;}
+
+/*---------------FORMULÁRIO RELATIVO AOS USUÁRIO---------------*/
+
+/* O formulário abaixo "FORMUSUARIO" é usado na página cadastro_usuario.php */ 
+#formusuario{width:400px; height:300px; padding:10px 10px 10px 10px; text-align:left; margin-left:140px; margin-top:30px;}
+
+/* Abaixo se encontra o "FILDSETUSUARIO", utilizado nos formulários 
+de cadastro e edição de usuário */
+#fieldsetusuario{
+float:left;      
+clear:both;      
+width:70%;      
+border:1px solid #BFBAB0;      
+background-color:#E3EEF9;
+font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+/* O "SUBMITBUTTONUSUARIO" é utilizado no formulário de cadastro e de edição de Usuários */
+#submitbuttonusuario{
+margin-top: 5px;
+width: 90px;
+height:25px;
+}
+/*---------------FIM DA ESTILIZAÇÃO DO FORMULÁRIO RELATIVO AOS USUÁRIO---------------*/
+
+
+/*---------------FORMULÁRIO RELATIVO AOS SERVIÇOS---------------*/
+
+/* O formulário abaixo "FORMUSERVICO" é usado na página cadastro_servico.php */
+#formservico{width:400px; height:300px; padding:10px 10px 10px 10px; text-align:left; margin-left:90px; margin-top:10px;}
+
+/* Abaixo se encontra o "FILDSETSERVICO", utilizado nos formulários 
+de cadastro e edição de serviço */
+#fieldsetservico{
+float: left;      
+clear: both;      
+width: 100%;      
+border: 1px solid #BFBAB0;      
+background-color:#E3EEF9;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+/* O "SUBMITBUTTONSERVICO" é utilizado no formulário de cadastro e de edição de serviços */
+#submitbuttonservico{
+float: left;
+margin-left: 60px;
+width: 90px;
+height:25px;
+}
+
+/*---------------FIM DA ESTILIZAÇÃO DO FORMULÁRIO RELATIVO AOS SERVIÇOS---------------*/
+
+
+/*---------------PÁGINA DE LOGIN---------------*/
+
+/* A div "BOXLOGIN" é utilizada na página formlogin.php e nela está contido o formulário 
+onde o usuário insere seus dados de autenticação */
+#boxlogin{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-225px;
+	margin-top:-275px;
+	width:450px;
+	height:550px;
+	background-image:url(images/background-login.png);
+}
+
+/* O formulário abaixo "FORMLOGIN" é usado na página formlogin.php */
+#formlogin{margin-top:270px; margin-left:120px;width:210px; height:130px; background-image:url(images/formlogin.png); padding-left:15px; padding-top:15px; background-repeat:no-repeat;}
+
+/* O "SUBMITBUTTONLOGIN" é utilizado no formulário de cadastro e de edição de serviços */
+#submitbuttonlogin{
+width: 90px;
+height:25px;}
+
+/*---------------FIM DA ESTILIZAÇÃO DA PÁGINA DE LOGIN---------------*/
+
+/*---------------ESTILIZAÇÃO GENERALIZADA DOS ITENS DE FORMULÁRIO---------------*/
+
+/*Estilização do item de formulário "INPUT" */
+input{
+width: 180px;
+margin-bottom: 5px;
+}
+
+/*Estilização do item de formulário "TEXTBOX" */
+textarea{
+width: 180px;
+height: 100px;
+}
+
+/*Estilização do item de formulário "LABEL" */
+label{
+float:left;
+width: 150px;
+font-weight: bold;
+font-family:verdana;
+font-size:9pt;
+}
+/* -------------FIM DA ESTILIZAÇÃO DE ITENS DE FORMULÁRIO-------------- */
+
+/* --------------ESTILIZAÇÃO DO MENU--------------- */
+/* Formatação da lista não ordenada*/
+ul {
+ 	margin:0px;
+ 	padding:0px;
+    width:192px;
+	height:530px;
+	list-style-type:none;
+	overflow:hidden;
+	background-color:#0099CC;
+}
+/* Formatação dos links */
+li{ float:left; padding:2px;}
+	a:link,a:visited {
+	display:block;
+	width:180px;
+	font-weight:bold;
+	font-size:10pt;
+	font-family:verdana;
+	color:#003366;
+	background-color:#C7E2FE;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin-left:0;
+}
+/* Formatação dos links quando o mouse passa em cima*/
+a:hover,a:active
+{
+	color:#66CCFF;
+}
+
+/* ---------------FIM DA ESTILIZAÇÂO DO MENU--------------- */
